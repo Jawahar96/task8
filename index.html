@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+<body>
+      
+  <h1 id="weathercondition"></h1>
+  <script src="./script.js"></script>
+  
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-sm">
+      <a class="navbar-brand" href="#">
+        <img src="https://image1.slideserve.com/1849726/weather-forecast-template-c-l.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        WEATHER REPORT
+      </a>
+    </div>
+  </nav><br>
+
+  
+  <div class="card-group">
+    <div class="card">
+      <input id= "cityNames" type="text" class="form-control" placeholder="Cityname">
+      <img src="https://cdn3.vectorstock.com/i/1000x1000/10/87/weather-forecast-vector-11181087.jpg" width="30" class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h6 class="Region">Region</h6>
+        <h6 class="capital">Capital</h6>
+        <h6 class="Latlng">Latlng</h6> 
+        <button type="button"  onclick="getweathercondition" class="btn btn-primary btn-sm">Click for weather</button>
+      </div>
+    </div>
+        <div class="card">
+          <div class="row-col-1"></div>
+      <input id= "cityNames" type="text" class="form-control" placeholder="Cityname">
+
+      <img src="https://cdn3.vectorstock.com/i/1000x1000/10/87/weather-forecast-vector-11181087.jpg" width="100" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h6 class="Region">Region</h6>
+        <h6 class="capital">Capital</h6>
+        <h6 class="Latlng">Latlng</h6>
+        
+        <div id="test"></div>
+        <button type="button"  onclick="getweathercondition" class="btn btn-primary btn-sm">Click for weather</button>
+
+        <!-- <p class="card-text"><small class="text-muted">Humidity</small></p> -->
+        
+      </div>
+    </div><br><br>
+    <div class="card">
+        <div class="row-cols-1 " ></div>
+      <input id= "cityNames" type="text" class="form-control" placeholder="Cityname">
+      <img src="https://cdn3.vectorstock.com/i/1000x1000/10/87/weather-forecast-vector-11181087.jpg">
+      <div class="card-body">
+        <h6 class="Region">Region</h6>
+
+        <h6 class="capital">Capital</h6>
+        <h class="Latlong">Latlng</h5>
+        
+        <div id="test"></div>
+        <button type="button"  onclick="getweathercondition" class="btn btn-primary btn-sm">Click for weather</button>
+      </div>     
+  </div>
+
+  
+  <!-- <button type="button"  onclick="Clickforweather" class="btn btn-primary btn-sm">Click for weather</button> -->
+  
+</body>
+</html>
